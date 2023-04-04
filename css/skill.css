@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#skill{position: relative;}
+#skill h2{
+    font-size: 2rem;
+    width: 100%; text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.contents_wrap{width: 100%; padding: 40px 280px;}
+.contents_wrap li{
+    display: flex;
+    width: 475px; height: 135px;
+}
+.contents_wrap li:nth-child(odd){float: left;}
+.contents_wrap li:nth-child(even){float: right;}
+.contents_wrap li h3{font-size: 1.25rem; padding: 10px 20px;}
+.contents_wrap li p{padding: 10px 20px;}

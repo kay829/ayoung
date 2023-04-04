@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#contac h2{
+    font-size: 2rem;
+    width: 100%; text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+#contac .profile{
+    display: flex; justify-content: center;
+    padding: 40px 0;
+}
+#contac .profile img{margin-right: 40px;}
+
+#contac .profile .profile_text .bold{
+    font-size: 22px;
+    font-weight: bold;
+}

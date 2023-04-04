@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#header{
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 110px; line-height: 110px;
+    z-index: 5000;
+}
+#header .inner_wrap{display: flex; justify-content: space-between;}
+#header h1 a{font-size: 2rem; }
+#header .mymenu{display: flex;}
+#header .mymenu li{width: 120px; text-align: center;}

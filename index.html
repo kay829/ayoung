@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoung</title>
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="inner_wrap">
+            <h1><a href="index.html">AYOUNG</a></h1>
+            <div class="menu">
+                <ul class="mymenu">
+                    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">HOME</a></li>
+                    <li data-menuanchor="secondPage"><a href="#secondPage">SKILL</a></li>
+                    <li data-menuanchor="thirdPage"><a href="#thirdPage">PORTFOLIO</a></li>
+                    <li data-menuanchor="lastPage"><a href="#lastPage">CONTAC</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <div class="section" id="main">
+            <h2>
+                <a href="http://www.thismanslife.co.uk" target="_blank">
+                    Hello,<br>
+                    Welcome to my portfolio
+                </a>
+            </h2>
+        </div>
+        <div class="section" id="skill">
+            <h2>SKILL</h2>
+            <div class="contents_wrap">
+                <ul>
+                    <li>
+                        <img src="images/html.png" alt="html이미지">
+                        <div class="text_wrap">
+                            <h3>HTML5</h3>
+                            <p>웹 표준과 웹 접근성을 고려하며 시멘틱 태그를 이용한 마크업이 가능합니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/포토샵.png" alt="html이미지">
+                        <div class="text_wrap">
+                            <h3>Photoshop</h3>
+                            <p>이미지 보정, 합성, 사이트 시안 작업 등 가능합니다</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/css.png" alt="html이미지">
+                        <div class="text_wrap">
+                            <h3>CSS3</h3>
+                            <p>미디어 쿼리를 이용한 반응형 페이지 작성이 가능합니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/일러스트.png" alt="html이미지">
+                        <div class="text_wrap">
+                            <h3>liiustrator</h3>
+                            <p>웹사이트에 필요한 아이콘 제작 및 이벤트 배너 제작이 가능합니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/js.png" alt="html이미지">
+                        <div class="text_wrap">
+                            <h3>JS/JQuery</h3>
+                            <p>Javascript와 JQuery의 기본 구조와 문법을 알고 있으며 JQuery 플러그인 활용이 가능합니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/피그마.png" alt="html이미지">
+                        <div class="text_wrap">
+                            <h3>Figma</h3>
+                            <p>와이어 프레임, 프로토 타입 및 시안 작업 가능합니다.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section" id="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="http://kay829.github.io/bottega/" target="_blank">
+                            <img src="images/보테가(반응협).png" alt="반응형홈페이지">
+                            <p>BOTTEGA 웹사이트 리뉴얼[반응형]</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="http://smegproject.dothome.co.kr" target="_blank">
+                            <img src="images/반응형(스메그).png" alt="반응형홈페이지">
+                            <p>SMEG 웹사이트 리뉴얼[반응형]</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="http://kodak.dothome.co.kr" target="_blank">
+                            <img src="images/반응형_코닥.png" alt="반응형홈페이지">
+                            <p>KODAK 웹사이트 리뉴얼[반응형]</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://kay829.github.io/Euro/" target="_blank">
+                            <img src="images/반응형_유로.png" alt="반응형홈페이지">
+                            <p>O&C건설 웹사이트 리뉴얼[반응형]</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="http://uniquely.dothome.co.kr/" target="_blank">
+                            <img src="images/pc_유비.png" alt="적응형홈페이지">
+                            <p>주류업체 웹사이트 리브랜딩[적응형-PC]</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="http://muniquely.dothome.co.kr/" target="_blank">
+                            <img src="images/모바일_유비.png" alt="적응형홈페이지">
+                            <p>주류업체 웹사이트 리브랜딩[적응형-Mobile]</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="section" id="contac">
+            <h2>CONTAC</h2>
+            <div class="profile">
+                <img src="images/contac_img.png" alt="프로필사진">
+                <div class="profile_text">
+                    <p class="bold">Name</p>
+                    <p>김아영/Kim A Young</p><br>
+                    <p class="bold">Phone</p>
+                    <p>010-3630-2931</p><br>
+                    <p class="bold">E-mail</p>
+                    <p>kay829@naver.com</p><br>
+                    <p class="bold">Education</p>
+                    <p>더조은 컴퓨터 아카데미<br>
+                        UI/UX 웹디자인, 웹퍼블리셔 실무자 양성과정<br>
+                         22-06-27 ~ 22-11-25
+                    </p><br>
+                    <p class="bold">License</p>
+                    <p>GTQ 1급 (2022.08)<br>
+                        운전면허 2종보통 (2022.04)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
